@@ -1,0 +1,78 @@
+/* font bengali */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali&display=swap');
+
+.navbar {
+    margin: 0;
+    background-color: black;
+    display: inline;
+    position: fixed;
+    z-index: 1;
+}
+.dropdown{
+    display: inline-flex;
+}
+.navbar .container-fluid {
+    color: #ffc107;
+    font-size: 60px;
+    font-weight: bold;
+    font-family: 'Noto Sans Bengali', sans-serif;
+    position: relative;
+    left: 5px;
+}
+
+.navbar .btn a {
+    text-decoration: none;
+    color: black;
+}
+
+marquee {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    background-color: #ffc107;
+    color: black;
+    font-size: 40px;
+}
+
+.cardlist {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: rgb(5, 1, 65);
+    border: 2px black;
+    padding: 5px;
+}
+.cardlist .card-body, .btn{
+    margin: 5px;
+}
+.card1 {
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    margin-left: 10vw;
+    border: 2px black;
+    background-color: #ffc107;
+}
+.card1 img:hover{
+    width: 105%;
+}
+
+.card2 {
+    margin-top: 10vh;
+    margin-right: 10vw;
+    border: 2px black;
+    margin-bottom: 10vh;
+    background-color: #ffc107;
+}
+.card2 img:hover{
+    width: 105%;
+}
+footer{
+    height: 30px;
+    width: 100vw;
+    background: #ffc107;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    font-weight: bold;
+    position: sticky;
+}
